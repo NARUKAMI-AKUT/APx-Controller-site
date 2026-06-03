@@ -1,6 +1,6 @@
 # APx500 Controller
 
-Audio Precision APx500 制御する Windows デスクトップアプリです。
+Audio Precision APx500 を制御する Windows デスクトップアプリです。
 
 ---
 
