@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — APx Controller</title>
+  <style>
+    :root {
+      --bg: #050e17;
+      --surface: #0d1f30;
+      --accent: #F5A623;
+      --text: #e8eaf0;
+      --muted: #8090a0;
+      --border: #1e3044;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+      line-height: 1.75;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    .app-name { color: var(--accent); font-size: 1.1rem; letter-spacing: 0.1em; font-weight: 600; margin-bottom: 0.5rem; }
+    h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .updated { color: var(--muted); font-size: 0.875rem; }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--accent);
+      border-left: 3px solid var(--accent);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    p { margin-bottom: 0.75rem; }
+    ul { padding-left: 1.5rem; margin-bottom: 0.75rem; }
+    li { margin-bottom: 0.4rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 0.75rem; font-size: 0.9rem; }
+    th { background: var(--surface); color: var(--accent); font-weight: 600; text-align: left; padding: 0.6rem 0.75rem; border: 1px solid var(--border); }
+    td { padding: 0.6rem 0.75rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lang-divider { border: none; border-top: 2px solid var(--border); margin: 3rem 0; }
+    .lang-label { text-align: center; color: var(--muted); font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 2rem; }
+    footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ── 日本語 ── -->
+  <header>
+    <div class="app-name">APx Controller</div>
+    <h1>プライバシーポリシー / 免責事項</h1>
+    <p class="updated">最終更新: 2026年6月15日</p>
+  </header>
+
+  <section>
+    <h2>1. はじめに</h2>
+    <p>APx Controller（以下「本アプリ」）は、NARUKAMI AKUT が提供する、Audio Precision社製測定器 APx500シリーズ（APx515 等）を遠隔操作するための Windows デスクトップアプリです。本ポリシーは、本アプリがどのような情報を扱うかを説明します。</p>
+  </section>
+
+  <section>
+    <h2>2. 収集する情報</h2>
+    <table>
+      <thead>
+        <tr><th>情報の種類</th><th>用途</th><th>外部送信</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>測定器の設定値・測定データ</td>
+          <td>APx500 アプリケーションの遠隔操作・表示</td>
+          <td>なし（PC内のみ）</td>
+        </tr>
+        <tr>
+          <td>レポート保存先フォルダのパス</td>
+          <td>シーケンス実行レポートの保存先指定</td>
+          <td>なし（PC内のみ）</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>本アプリはアカウント登録・ログイン機能を持たず、氏名・メールアドレス等の個人識別情報は一切収集しません。設定や測定データはアプリの動作中のみメモリ上で保持され、ファイルへの保存やサーバーへの送信は行いません。</p>
+  </section>
+
+  <section>
+    <h2>3. 第三者サービス</h2>
+    <p>本アプリは広告・解析・クラッシュレポート等の第三者サービスを利用していません。インターネット通信は一切行いません。</p>
+  </section>
+
+  <section>
+    <h2>4. 動作環境・通信について</h2>
+    <p>本アプリは、同一PC上にインストールされた Audio Precision社の APx500 アプリケーションと、.NET（pythonnet）経由でローカル通信を行うことで測定器を操作します。インターネットを含む外部ネットワークとの通信は行いません。</p>
+  </section>
+
+  <section>
+    <h2>5. 免責事項</h2>
+    <p>本アプリが表示・操作する測定値・設定値は、接続された APx500 アプリケーションおよび測定器に依存します。本アプリ自体が測定値の正確性を保証するものではありません。</p>
+    <p>本アプリの使用中に生じた測定器・PC・データ等への損害、業務上の損失、その他いかなる損害についても、開発者は一切の責任を負いません。本アプリは現状有姿（as-is）で提供されます。動作の継続性・正確性・特定目的への適合性について、明示・黙示を問わず一切保証しません。</p>
+    <p>「Audio Precision」「APx500」「APx515」は Audio Precision, Inc. の商標または登録商標です。本アプリは Audio Precision, Inc. による承認・提携を受けたものではありません。</p>
+  </section>
+
+  <section>
+    <h2>6. 子どものプライバシー</h2>
+    <p>本アプリは測定器の操作を行う専門用途のツールであり、13歳未満のお子様を対象としていません。</p>
+  </section>
+
+  <section>
+    <h2>7. ポリシーの変更</h2>
+    <p>本ポリシーは予告なく変更される場合があります。変更後のポリシーはこのページに掲載し、最終更新日を更新します。</p>
+  </section>
+
+  <section>
+    <h2>8. お問い合わせ</h2>
+    <p>プライバシーに関するご質問は下記までご連絡ください。</p>
+    <p><a href="mailto:narukami.dev@gmail.com">narukami.dev@gmail.com</a></p>
+  </section>
+
+  <hr class="lang-divider">
+  <p class="lang-label">English</p>
+
+  <!-- ── English ── -->
+  <section>
+    <h2>Privacy Policy &amp; Disclaimer</h2>
+    <p>Last updated: June 15, 2026</p>
+  </section>
+
+  <section>
+    <h2>1. Overview</h2>
+    <p>APx Controller is a Windows desktop application developed by NARUKAMI AKUT for remotely controlling Audio Precision APx500-series analyzers (such as the APx515). This policy explains how the app handles information.</p>
+  </section>
+
+  <section>
+    <h2>2. Information We Collect</h2>
+    <table>
+      <thead>
+        <tr><th>Data Type</th><th>Purpose</th><th>Transmitted</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Analyzer settings / measurement data</td>
+          <td>Remote control and display of the APx500 application</td>
+          <td>No (local PC only)</td>
+        </tr>
+        <tr>
+          <td>Report output folder path</td>
+          <td>Specifying where sequence reports are saved</td>
+          <td>No (local PC only)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The app does not require an account or login and does not collect any personally identifiable information such as name or email address. Settings and measurement data are held in memory only while the app is running and are never written to disk or sent to a server.</p>
+  </section>
+
+  <section>
+    <h2>3. Third-Party Services</h2>
+    <p>The app does not use any third-party advertising, analytics, or crash-reporting services. It performs no internet communication whatsoever.</p>
+  </section>
+
+  <section>
+    <h2>4. System Requirements &amp; Communication</h2>
+    <p>The app controls the analyzer by communicating locally, via .NET (pythonnet), with the Audio Precision APx500 application installed on the same PC. No communication occurs over the internet or any external network.</p>
+  </section>
+
+  <section>
+    <h2>5. Disclaimer</h2>
+    <p>Measurement values and settings displayed or controlled by this app depend on the connected APx500 application and analyzer hardware. The app itself does not guarantee the accuracy of any measurement values.</p>
+    <p>The developer assumes no liability for any damage to instruments, PCs, or data, business losses, or any other damages arising from the use of this app. This app is provided "as is" without warranties of any kind, express or implied, including but not limited to fitness for a particular purpose or uninterrupted operation.</p>
+    <p>"Audio Precision," "APx500," and "APx515" are trademarks or registered trademarks of Audio Precision, Inc. This app is not affiliated with, endorsed by, or sponsored by Audio Precision, Inc.</p>
+  </section>
+
+  <section>
+    <h2>6. Children's Privacy</h2>
+    <p>This app is a professional tool for operating measurement instruments and is not directed at children under 13.</p>
+  </section>
+
+  <section>
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this policy at any time. Changes will be posted on this page with an updated date.</p>
+  </section>
+
+  <section>
+    <h2>8. Contact</h2>
+    <p><a href="mailto:narukami.dev@gmail.com">narukami.dev@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2026 NARUKAMI AKUT — APx Controller
+  </footer>
+
+</div>
+</body>
+</html>
