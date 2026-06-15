@@ -1,4 +1,4 @@
-# APx500 Controller
+# APx Controller
 
 Audio Precision APx500 を制御する Windows デスクトップアプリです。
 
