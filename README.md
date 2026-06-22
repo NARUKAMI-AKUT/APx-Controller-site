@@ -6,7 +6,9 @@ Audio Precision APx500 を制御する Windows デスクトップアプリです
 
 ## ダウンロード / Download
 
-`APx_Controller_v0.13.1.zip` をダウンロードして任意のフォルダに解凍してください。
+[最新版をダウンロード / Download Latest Release](https://github.com/NARUKAMI-AKUT/APx-Controller-site/releases/latest)
+
+ダウンロードした ZIP を任意のフォルダに解凍してください。
 
 ---
 
@@ -59,10 +61,11 @@ https://narukami-akut.github.io/APx-Controller-site/privacy_policy.html
 
 ## バージョン / Version
 
-**v0.13.1**
+**v1.2.0**
 
-- UI修正
-- Zoom機能追加
+- アプリ内アナリティクス機能を追加（起動回数・エラー種別を匿名集計、いつでもオプトアウト可能）
+- アイコン・ロゴの文字色をブランドカラー（オレンジ）に統一
+- バージョン番号体系を見直し（本リリースから v1.x.x 形式）
 
 ---
 
