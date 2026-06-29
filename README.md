@@ -61,6 +61,9 @@ https://narukami-akut.github.io/APx-Controller-site/privacy_policy.html
 
 ## バージョン / Version
 
+**v1.2.1** (2026-06-29)
+- Signal Path Setup、Sequence スタートの画面切り替え時にウィンドウ最大化が解除される不具合を修正
+
 **v1.2.0** (2026-06-22)
 - アプリ内アナリティクス機能を追加（起動回数・エラー種別を匿名集計、いつでもオプトアウト可能）
 - アイコン・ロゴの文字色をブランドカラー（オレンジ）に統一
